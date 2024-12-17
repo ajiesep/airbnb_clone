@@ -23,6 +23,7 @@ async function PropertiesContainer({
       />
     );
   }
+
   return <PropertiesList properties={properties} />;
 }
 export default PropertiesContainer;
