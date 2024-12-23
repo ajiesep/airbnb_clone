@@ -13,7 +13,6 @@ import UserIcon from "./UserIcon";
 import { links } from "@/utils/links";
 import SignOutLink from "./SignOutLink";
 import { SignedOut, SignedIn, SignInButton, SignUpButton } from "@clerk/nextjs";
-import { Sign } from "crypto";
 
 export default function LinksDropdown() {
   return (

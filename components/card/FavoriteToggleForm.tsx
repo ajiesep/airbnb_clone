@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useParams, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import FormContainer from "../form/FormContainer";
 import { toggleFavoriteAction } from "@/utils/actions";
 import { CardSubmitButton } from "../form/Buttons";
