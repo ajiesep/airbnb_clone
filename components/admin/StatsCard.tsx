@@ -3,7 +3,7 @@ import { Card, CardHeader } from "@/components/ui/card";
 
 type StatsCardProps = {
   title: string;
-  value: number;
+  value: number | string;
 };
 
 export default function StatsCard({ title, value }: StatsCardProps) {
